@@ -1,0 +1,74 @@
+{
+  "coins": {
+    "greedy": {
+      "count": 5,
+      "combination": [
+        11,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "dp": {
+      "count": 3,
+      "combination": [
+        5,
+        5,
+        5
+      ]
+    }
+  },
+  "knapsack": {
+    "capacity_1000": {
+      "value": 315,
+      "weight": 1000,
+      "selected": [
+        "睡袋",
+        "食物",
+        "水具"
+      ]
+    },
+    "capacity_800": {
+      "value": 270,
+      "weight": 800,
+      "selected": [
+        "炉具",
+        "睡袋",
+        "水具"
+      ]
+    },
+    "must_include_tent": {
+      "value": 290,
+      "weight": 900,
+      "selected": [
+        "帐篷",
+        "睡袋",
+        "水具"
+      ]
+    },
+    "backtracking_check": {
+      "value": 315,
+      "weight": 1000,
+      "selected": [
+        "睡袋",
+        "食物",
+        "水具"
+      ]
+    }
+  },
+  "dp_last_row_100g": [
+    0,
+    0,
+    70,
+    90,
+    120,
+    160,
+    200,
+    210,
+    270,
+    290,
+    315
+  ]
+}
+
